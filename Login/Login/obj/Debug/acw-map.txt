@@ -1,0 +1,24 @@
+Login.AddFriends, Login;md533583cc845b761e36e0b683119bc5692.AddFriends
+Login.AddFriends, Login, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533583cc845b761e36e0b683119bc5692.AddFriends
+Login.AddFriends;md533583cc845b761e36e0b683119bc5692.AddFriends
+login.AddFriends;md533583cc845b761e36e0b683119bc5692.AddFriends
+Login.Friends, Login;md533583cc845b761e36e0b683119bc5692.Friends
+Login.Friends, Login, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533583cc845b761e36e0b683119bc5692.Friends
+Login.Friends;md533583cc845b761e36e0b683119bc5692.Friends
+login.Friends;md533583cc845b761e36e0b683119bc5692.Friends
+Login.MainActivity, Login;md533583cc845b761e36e0b683119bc5692.MainActivity
+Login.MainActivity, Login, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533583cc845b761e36e0b683119bc5692.MainActivity
+Login.MainActivity;md533583cc845b761e36e0b683119bc5692.MainActivity
+login.MainActivity;md533583cc845b761e36e0b683119bc5692.MainActivity
+Login.Register, Login;md533583cc845b761e36e0b683119bc5692.Register
+Login.Register, Login, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533583cc845b761e36e0b683119bc5692.Register
+Login.Register;md533583cc845b761e36e0b683119bc5692.Register
+login.Register;md533583cc845b761e36e0b683119bc5692.Register
+Login.UserInfo, Login;md533583cc845b761e36e0b683119bc5692.UserInfo
+Login.UserInfo, Login, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533583cc845b761e36e0b683119bc5692.UserInfo
+Login.UserInfo;md533583cc845b761e36e0b683119bc5692.UserInfo
+login.UserInfo;md533583cc845b761e36e0b683119bc5692.UserInfo
+Login.Resources.layout.EditProfile, Login;md5d502d2baa6d03f6e0696abe5aff64cc9.EditProfile
+Login.Resources.layout.EditProfile, Login, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d502d2baa6d03f6e0696abe5aff64cc9.EditProfile
+Login.Resources.layout.EditProfile;md5d502d2baa6d03f6e0696abe5aff64cc9.EditProfile
+login.resources.layout.EditProfile;md5d502d2baa6d03f6e0696abe5aff64cc9.EditProfile
