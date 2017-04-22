@@ -6,8 +6,34 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <TextView
-        android:text="First Name: "
+        android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvFPFirst" />
+        android:id="@+id/tvFPName" />
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFPEmail" />
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFPPhone" />
+    <Button
+        android:text="SMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/btnSMS" />
+    <Button
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFPEmail" />
+    <Button
+        android:text="Remove Friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFPRemove" />
 </LinearLayout>

@@ -59,7 +59,12 @@ namespace Login
 
         private void ListFriends_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            
+            Intent toFriendProfile = new Intent(this, typeof(FriendProfile));
+            var selectedFriend = jsonData[e.Position];
+            string serializedFriend = JsonConvert.SerializeObject(selectedFriend);
+            toFriendProfile.PutExtra("friend", serializedFriend);
+            toFriendProfile.PutExtra("token", AccessToken);
+            StartActivity(toFriendProfile);
         }
 
         public static async Task<string> MakeGetRequest(string url)

@@ -14,45 +14,51 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int btnEditProfile=0x7f05001b;
+        public static final int btnEditProfile=0x7f050020;
         public static final int btnEditSaveChanges=0x7f050009;
-        public static final int btnFriends=0x7f05001c;
-        public static final int btnLogin=0x7f050011;
-        public static final int btnLogout=0x7f05001e;
-        public static final int btnRegister=0x7f050012;
-        public static final int button2=0x7f05001d;
-        public static final int etConfirmPassword=0x7f050019;
+        public static final int btnFPEmail=0x7f05000e;
+        public static final int btnFPRemove=0x7f05000f;
+        public static final int btnFriends=0x7f050021;
+        public static final int btnLogin=0x7f050016;
+        public static final int btnLogout=0x7f050023;
+        public static final int btnRegister=0x7f050017;
+        public static final int button2=0x7f050022;
+        public static final int etConfirmPassword=0x7f05001e;
         public static final int etEditEmail=0x7f050006;
         public static final int etEditFirstName=0x7f050002;
         public static final int etEditLastName=0x7f050004;
         public static final int etEditPhoneNumber=0x7f050008;
-        public static final int etEmail=0x7f05000e;
-        public static final int etFirstName=0x7f050015;
-        public static final int etLastName=0x7f050017;
-        public static final int etPassword=0x7f050010;
-        public static final int listViewFriends=0x7f05000c;
-        public static final int tvConfirmPassword=0x7f050018;
+        public static final int etEmail=0x7f050013;
+        public static final int etFirstName=0x7f05001a;
+        public static final int etLastName=0x7f05001c;
+        public static final int etPassword=0x7f050015;
+        public static final int listViewFriends=0x7f050011;
+        public static final int tvConfirmPassword=0x7f05001d;
         public static final int tvEditEmail=0x7f050005;
         public static final int tvEditError=0x7f05000a;
         public static final int tvEditFirstName=0x7f050001;
         public static final int tvEditLastName=0x7f050003;
         public static final int tvEditPhoneNumber=0x7f050007;
-        public static final int tvEmail=0x7f05000d;
+        public static final int tvEmail=0x7f050012;
+        public static final int tvFPEmail=0x7f05000c;
+        public static final int tvFPName=0x7f05000b;
+        public static final int tvFPPhone=0x7f05000d;
         public static final int tvFellowPartiers=0x7f050000;
-        public static final int tvFirstName=0x7f050014;
-        public static final int tvFriendsTest=0x7f05000b;
-        public static final int tvLastName=0x7f050016;
-        public static final int tvPassword=0x7f05000f;
-        public static final int tvTest=0x7f050013;
-        public static final int tvUserInfo=0x7f05001a;
+        public static final int tvFirstName=0x7f050019;
+        public static final int tvFriendsTest=0x7f050010;
+        public static final int tvLastName=0x7f05001b;
+        public static final int tvPassword=0x7f050014;
+        public static final int tvTest=0x7f050018;
+        public static final int tvUserInfo=0x7f05001f;
     }
     public static final class layout {
         public static final int addfriends=0x7f030000;
         public static final int editprofile=0x7f030001;
-        public static final int friends=0x7f030002;
-        public static final int main=0x7f030003;
-        public static final int register=0x7f030004;
-        public static final int userinfo=0x7f030005;
+        public static final int friendprofile=0x7f030002;
+        public static final int friends=0x7f030003;
+        public static final int main=0x7f030004;
+        public static final int register=0x7f030005;
+        public static final int userinfo=0x7f030006;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

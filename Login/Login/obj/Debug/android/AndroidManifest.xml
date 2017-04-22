@@ -7,6 +7,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="Login" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:label="AddFriends" android:name="md533583cc845b761e36e0b683119bc5692.AddFriends" />
+    <activity android:label="FriendProfile" android:name="md533583cc845b761e36e0b683119bc5692.FriendProfile" />
     <activity android:label="Friends" android:name="md533583cc845b761e36e0b683119bc5692.Friends" />
     <activity android:icon="@drawable/icon" android:label="Login" android:name="md533583cc845b761e36e0b683119bc5692.MainActivity">
       <intent-filter>

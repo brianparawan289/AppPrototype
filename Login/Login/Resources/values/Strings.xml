@@ -2,5 +2,5 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">PartyUp</string>
-  <string name="IP">http://172.27.99.155/partyup/</string>
+  <string name="IP">http://172.27.104.244/partyup/</string>
 </resources>

@@ -60,29 +60,38 @@ namespace Login
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f05001b
-			public const int btnEditProfile = 2131034139;
+			// aapt resource value: 0x7f050021
+			public const int btnEditProfile = 2131034145;
 			
 			// aapt resource value: 0x7f050009
 			public const int btnEditSaveChanges = 2131034121;
 			
-			// aapt resource value: 0x7f05001c
-			public const int btnFriends = 2131034140;
+			// aapt resource value: 0x7f05000f
+			public const int btnFPEmail = 2131034127;
 			
-			// aapt resource value: 0x7f050011
-			public const int btnLogin = 2131034129;
+			// aapt resource value: 0x7f050010
+			public const int btnFPRemove = 2131034128;
 			
-			// aapt resource value: 0x7f05001e
-			public const int btnLogout = 2131034142;
+			// aapt resource value: 0x7f050022
+			public const int btnFriends = 2131034146;
 			
-			// aapt resource value: 0x7f050012
-			public const int btnRegister = 2131034130;
+			// aapt resource value: 0x7f050017
+			public const int btnLogin = 2131034135;
 			
-			// aapt resource value: 0x7f05001d
-			public const int button2 = 2131034141;
+			// aapt resource value: 0x7f050024
+			public const int btnLogout = 2131034148;
 			
-			// aapt resource value: 0x7f050019
-			public const int etConfirmPassword = 2131034137;
+			// aapt resource value: 0x7f050018
+			public const int btnRegister = 2131034136;
+			
+			// aapt resource value: 0x7f05000e
+			public const int btnSMS = 2131034126;
+			
+			// aapt resource value: 0x7f050023
+			public const int button2 = 2131034147;
+			
+			// aapt resource value: 0x7f05001f
+			public const int etConfirmPassword = 2131034143;
 			
 			// aapt resource value: 0x7f050006
 			public const int etEditEmail = 2131034118;
@@ -96,23 +105,23 @@ namespace Login
 			// aapt resource value: 0x7f050008
 			public const int etEditPhoneNumber = 2131034120;
 			
-			// aapt resource value: 0x7f05000e
-			public const int etEmail = 2131034126;
+			// aapt resource value: 0x7f050014
+			public const int etEmail = 2131034132;
 			
-			// aapt resource value: 0x7f050015
-			public const int etFirstName = 2131034133;
+			// aapt resource value: 0x7f05001b
+			public const int etFirstName = 2131034139;
 			
-			// aapt resource value: 0x7f050017
-			public const int etLastName = 2131034135;
+			// aapt resource value: 0x7f05001d
+			public const int etLastName = 2131034141;
 			
-			// aapt resource value: 0x7f050010
-			public const int etPassword = 2131034128;
+			// aapt resource value: 0x7f050016
+			public const int etPassword = 2131034134;
 			
-			// aapt resource value: 0x7f05000c
-			public const int listViewFriends = 2131034124;
+			// aapt resource value: 0x7f050012
+			public const int listViewFriends = 2131034130;
 			
-			// aapt resource value: 0x7f050018
-			public const int tvConfirmPassword = 2131034136;
+			// aapt resource value: 0x7f05001e
+			public const int tvConfirmPassword = 2131034142;
 			
 			// aapt resource value: 0x7f050005
 			public const int tvEditEmail = 2131034117;
@@ -129,29 +138,38 @@ namespace Login
 			// aapt resource value: 0x7f050007
 			public const int tvEditPhoneNumber = 2131034119;
 			
+			// aapt resource value: 0x7f050013
+			public const int tvEmail = 2131034131;
+			
+			// aapt resource value: 0x7f05000c
+			public const int tvFPEmail = 2131034124;
+			
+			// aapt resource value: 0x7f05000b
+			public const int tvFPName = 2131034123;
+			
 			// aapt resource value: 0x7f05000d
-			public const int tvEmail = 2131034125;
+			public const int tvFPPhone = 2131034125;
 			
 			// aapt resource value: 0x7f050000
 			public const int tvFellowPartiers = 2131034112;
 			
-			// aapt resource value: 0x7f050014
-			public const int tvFirstName = 2131034132;
-			
-			// aapt resource value: 0x7f05000b
-			public const int tvFriendsTest = 2131034123;
-			
-			// aapt resource value: 0x7f050016
-			public const int tvLastName = 2131034134;
-			
-			// aapt resource value: 0x7f05000f
-			public const int tvPassword = 2131034127;
-			
-			// aapt resource value: 0x7f050013
-			public const int tvTest = 2131034131;
-			
 			// aapt resource value: 0x7f05001a
-			public const int tvUserInfo = 2131034138;
+			public const int tvFirstName = 2131034138;
+			
+			// aapt resource value: 0x7f050011
+			public const int tvFriendsTest = 2131034129;
+			
+			// aapt resource value: 0x7f05001c
+			public const int tvLastName = 2131034140;
+			
+			// aapt resource value: 0x7f050015
+			public const int tvPassword = 2131034133;
+			
+			// aapt resource value: 0x7f050019
+			public const int tvTest = 2131034137;
+			
+			// aapt resource value: 0x7f050020
+			public const int tvUserInfo = 2131034144;
 			
 			static Id()
 			{
@@ -173,16 +191,19 @@ namespace Login
 			public const int EditProfile = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Friends = 2130903042;
+			public const int FriendProfile = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Main = 2130903043;
+			public const int Friends = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Register = 2130903044;
+			public const int Main = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int UserInfo = 2130903045;
+			public const int Register = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int UserInfo = 2130903046;
 			
 			static Layout()
 			{

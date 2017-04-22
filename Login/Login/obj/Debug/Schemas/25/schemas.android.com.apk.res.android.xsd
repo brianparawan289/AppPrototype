@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>4/19/2017 9:40:10 AM</xs:documentation>
+    <xs:documentation>4/22/2017 12:24:26 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -16957,10 +16957,13 @@
             <xs:enumeration value="@+id/checkedTextView1" />
             <xs:enumeration value="@id/btnEditProfile" />
             <xs:enumeration value="@id/btnEditSaveChanges" />
+            <xs:enumeration value="@id/btnFPEmail" />
+            <xs:enumeration value="@id/btnFPRemove" />
             <xs:enumeration value="@id/btnFriends" />
             <xs:enumeration value="@id/btnLogin" />
             <xs:enumeration value="@id/btnLogout" />
             <xs:enumeration value="@id/btnRegister" />
+            <xs:enumeration value="@id/btnSMS" />
             <xs:enumeration value="@id/button2" />
             <xs:enumeration value="@id/etConfirmPassword" />
             <xs:enumeration value="@id/etEditEmail" />
@@ -16981,7 +16984,9 @@
             <xs:enumeration value="@id/tvEmail" />
             <xs:enumeration value="@id/tvFellowPartiers" />
             <xs:enumeration value="@id/tvFirstName" />
-            <xs:enumeration value="@id/tvFPFirst" />
+            <xs:enumeration value="@id/tvFPEmail" />
+            <xs:enumeration value="@id/tvFPName" />
+            <xs:enumeration value="@id/tvFPPhone" />
             <xs:enumeration value="@id/tvFriendsTest" />
             <xs:enumeration value="@id/tvLastName" />
             <xs:enumeration value="@id/tvPassword" />

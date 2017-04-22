@@ -52,11 +52,13 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddFriends.cs" />
+    <Compile Include="FriendProfile.cs" />
     <Compile Include="Friends.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Register.cs" />
@@ -83,6 +85,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\EditProfile.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\FriendProfile.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
