@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>4/22/2017 12:24:26 PM</xs:documentation>
+    <xs:documentation>4/22/2017 1:02:38 PM</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>

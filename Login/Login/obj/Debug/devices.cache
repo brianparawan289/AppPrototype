@@ -4,4 +4,8 @@
     <ResultingAbi></ResultingAbi>
     <SdkVersion>23</SdkVersion>
   </Device>
+  <Device id="303a07b9">
+    <ResultingAbi></ResultingAbi>
+    <SdkVersion>24</SdkVersion>
+  </Device>
 </Devices>
