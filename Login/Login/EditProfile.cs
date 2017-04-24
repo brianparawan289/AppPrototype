@@ -38,7 +38,8 @@ namespace Login.Resources.layout
             etEditLastName = (EditText) FindViewById(Resource.Id.etEditLastName);
             etEditEmail = (TextView) FindViewById(Resource.Id.etEditEmail);
             etEditPhoneNumber = (EditText) FindViewById(Resource.Id.etEditPhoneNumber);
-            tvEditError = (TextView) FindViewById(Resource.Id.tvEditError); 
+            tvEditError = (TextView) FindViewById(Resource.Id.tvEditError);
+          
 
             try
             {

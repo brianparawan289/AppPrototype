@@ -100,6 +100,17 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Login.dll" comes first in this list. */
 		"Login.dll",
 		"Newtonsoft.Json.dll",
+		"Xamarin.Android.Support.Compat.dll",
+		"Xamarin.Android.Support.Core.UI.dll",
+		"Xamarin.Android.Support.Core.Utils.dll",
+		"Xamarin.Android.Support.Media.Compat.dll",
+		"Xamarin.Android.Support.Fragment.dll",
+		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Tasks.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Maps.dll",
+		"Xamarin.GooglePlayServices.Location.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

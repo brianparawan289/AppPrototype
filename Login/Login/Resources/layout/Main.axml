@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/tvEmail" />
     <EditText
-        android:text=""
+        android:text="admin@example.com"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etEmail" />
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/tvPassword" />
     <EditText
-        android:text=""
+        android:text="Password@123"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"

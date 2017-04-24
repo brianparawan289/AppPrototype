@@ -70,6 +70,24 @@ namespace Login
             Button btnFriends = (Button)FindViewById(Resource.Id.btnFriends);
             btnFriends.Click += BtnFriends_Click;
 
+            Button btnMap = (Button) FindViewById(Resource.Id.btnMap);
+            btnMap.Click += BtnMap_Click;
+
+            Button btnCreateEvent = (Button) FindViewById(Resource.Id.btnCreateEvent);
+            btnCreateEvent.Click += BtnCreateEvent_Click;
+
+        }
+
+        private void BtnCreateEvent_Click(object sender, EventArgs e)
+        {
+            Intent toCreateEvent = new Intent(this, typeof(CreateEvent));
+            toCreateEvent.PutExtra("token", AccessToken);
+            StartActivity(toCreateEvent);
+        }
+
+        private void BtnMap_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         protected async override void OnResume()

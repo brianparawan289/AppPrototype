@@ -21,10 +21,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnFriends" />
     <Button
-        android:text="Events"
+        android:text="Events Map"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2" />
+        android:id="@+id/btnMap" />
+  <Button
+    android:text="Create Event"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnCreateEvent" />
     <Button
         android:text="Logout"
         android:layout_width="match_parent"

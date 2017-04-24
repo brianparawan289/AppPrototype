@@ -50,11 +50,39 @@ namespace Login
             {
                 tvFriendsTest.Text = "ERROR"; 
             }
+
+            if (jsonData == null)
+            {
+                tvFriendsTest.Text = "ERROR";
+            }
+
+
             ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, jsonData);
             // Bind the adapter to the ListView.
             listFriends.Adapter = adapter;
             listFriends.ItemClick += ListFriends_ItemClick;
 
+        }
+
+        protected async override void OnResume()
+        {
+            base.OnResume();
+
+            string url = GetString(Resource.String.IP) + "api/friends";
+            //Get friends list
+            try
+            {
+
+                string serializedResponse = await MakeGetRequest(url);
+                jsonData = JsonConvert.DeserializeObject(serializedResponse);
+            }
+            catch (Exception e)
+            {
+                tvFriendsTest.Text = "ERROR";
+            }
+            ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, jsonData);
+            // Bind the adapter to the ListView.
+            listFriends.Adapter = adapter;
         }
 
         private void ListFriends_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
