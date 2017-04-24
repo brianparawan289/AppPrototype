@@ -115,6 +115,7 @@
   <ItemGroup>
     <Compile Include="AddFriends.cs" />
     <Compile Include="CreateEvent.cs" />
+    <Compile Include="Event.cs" />
     <Compile Include="FriendProfile.cs" />
     <Compile Include="Friends.cs" />
     <Compile Include="MainActivity.cs" />

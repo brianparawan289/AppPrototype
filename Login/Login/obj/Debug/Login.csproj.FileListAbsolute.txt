@@ -68,6 +68,7 @@ D:\Github\AppPrototype\Login\Login\bin\Debug\Xamarin.GooglePlayServices.Location
 D:\Github\AppPrototype\Login\Login\bin\Debug\Xamarin.GooglePlayServices.Maps.dll
 D:\Github\AppPrototype\Login\Login\bin\Debug\Xamarin.GooglePlayServices.Tasks.dll
 D:\Github\AppPrototype\Login\Login\bin\Debug\Newtonsoft.Json.xml
+D:\Github\AppPrototype\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
 D:\Github\AppPrototype\Login\Login\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll
 D:\Github\AppPrototype\Login\Login\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll
 D:\Github\AppPrototype\Login\Login\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll
@@ -127,6 +128,5 @@ D:\Github\AppPrototype\Login\Login\obj\Debug\android\assets\System.Runtime.Seria
 D:\Github\AppPrototype\Login\Login\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 D:\Github\AppPrototype\Login\Login\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\Github\AppPrototype\Login\Login\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-D:\Github\AppPrototype\Login\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
 D:\Github\AppPrototype\Login\Login\obj\Debug\Login.dll.mdb
 D:\Github\AppPrototype\Login\Login\bin\Debug\Login.dll.mdb

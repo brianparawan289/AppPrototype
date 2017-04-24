@@ -32,7 +32,7 @@ namespace Login
         private static string response;
         private static dynamic jsondata;
         private static double lat;
-        private static double lon;
+        private static double lng;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -50,6 +50,27 @@ namespace Login
             Button btnAddress = (Button)FindViewById(Resource.Id.btnAddress);
             btnAddress.Click += BtnAddress_Click;
 
+            Button btnSaveLocation = (Button) FindViewById(Resource.Id.btnSaveLocation);
+            btnSaveLocation.Click += BtnSaveLocation_Click;
+
+        }
+
+        private void BtnSaveLocation_Click(object sender, EventArgs e)
+        {
+            if (etAddress1.Text != null && etCity.Text != null && etState.Text != null && lat != 0.0 && lng != 0.0) 
+            {
+                Intent returnIntent = new Intent(this, typeof(CreateEvent));
+                returnIntent.PutExtra("address1", etAddress1.Text);
+                returnIntent.PutExtra("address2", etAddress2.Text);
+                returnIntent.PutExtra("city", etCity.Text);
+                returnIntent.PutExtra("state", etState.Text);
+                returnIntent.PutExtra("postal", etPostal.Text);
+                returnIntent.PutExtra("lat", lat);
+                returnIntent.PutExtra("lng", lng); 
+                
+                SetResult(Result.Ok, returnIntent);
+                Finish();
+            }
         }
 
         private async void BtnAddress_Click(object sender, EventArgs e)
@@ -69,10 +90,10 @@ namespace Login
             {
                 jsondata = JsonConvert.DeserializeObject(response);
                 System.Double.TryParse(jsondata.results[0].geometry.location.lat.ToString(), out lat);
-                System.Double.TryParse(jsondata.results[0].geometry.location.lng.ToString(), out lon);
+                System.Double.TryParse(jsondata.results[0].geometry.location.lng.ToString(), out lng);
                 
                 
-                LatLng latlng = new LatLng(lat, lon);
+                LatLng latlng = new LatLng(lat, lng);
                 CameraUpdate camera = CameraUpdateFactory.NewLatLngZoom(latlng, 17);
                 slMap.MoveCamera(camera);
                 MarkerOptions options = new MarkerOptions().SetPosition(latlng);
@@ -119,6 +140,8 @@ namespace Login
 
         public async void OnMapLongClick(LatLng point)
         {
+            lat = point.Latitude;
+            lng = point.Longitude;
             CameraUpdate camera = CameraUpdateFactory.NewLatLngZoom(point, 17);
             slMap.MoveCamera(camera);
             MarkerOptions options = new MarkerOptions().SetPosition(point);
