@@ -76,6 +76,16 @@ namespace Login
             Button btnCreateEvent = (Button) FindViewById(Resource.Id.btnCreateEvent);
             btnCreateEvent.Click += BtnCreateEvent_Click;
 
+            Button btnEventInvite = (Button) FindViewById(Resource.Id.btnEventInvite);
+            btnEventInvite.Click += BtnEventInvite_Click;
+
+        }
+
+        private void BtnEventInvite_Click(object sender, EventArgs e)
+        {
+            Intent toInvite = new Intent(this, typeof(Invite));
+            toInvite.PutExtra("token", AccessToken);
+            StartActivity(toInvite);
         }
 
         private void BtnCreateEvent_Click(object sender, EventArgs e)

@@ -57,7 +57,36 @@ namespace Login
             }
 
 
-            ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, jsonData);
+            //loop through each friend and put their data into a sorted list by first and last name
+            // then work on seperating the people into confirmed and pending
+            SortedList<string,Friend> peopleSortedList = new SortedList<string, Friend>();
+            List<string> names = new List<string>();
+
+            foreach (var x in jsonData)
+            {
+                Friend person = new Friend();
+                person.FirstName = x.FirstName;
+                person.LastName = x.LastName;
+                person.PhoneNumber = x.PhoneNumber;
+                person.userName = x.userName;
+                person.friendshipEstablished = x.friendshipEstablished;
+
+                peopleSortedList.Add(person.FirstName + person.LastName, person);
+
+                //popluate names and organize it. then you can call the corresponding key from the sorted list
+            }
+
+            //  List<string> names = new List<string>();
+            ////get the names of each friend
+            //foreach (var person in jsonData)
+            //{
+            //    string name = person.FirstName + ' ' + person.LastName + '\n';
+            //    names.Add(name);
+            //}
+            
+
+
+            ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, names.ToArray());
             // Bind the adapter to the ListView.
             listFriends.Adapter = adapter;
             listFriends.ItemClick += ListFriends_ItemClick;
@@ -80,7 +109,16 @@ namespace Login
             {
                 tvFriendsTest.Text = "ERROR";
             }
-            ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, jsonData);
+
+            List<string> names = new List<string>();
+            //get the names of each friend
+            foreach (var person in jsonData)
+            {
+                string name = person.FirstName + ' ' + person.LastName + '\n';
+                names.Add(name);
+            }
+
+            ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, names.ToArray());
             // Bind the adapter to the ListView.
             listFriends.Adapter = adapter;
         }

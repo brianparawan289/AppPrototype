@@ -116,8 +116,10 @@
     <Compile Include="AddFriends.cs" />
     <Compile Include="CreateEvent.cs" />
     <Compile Include="Event.cs" />
+    <Compile Include="Friend.cs" />
     <Compile Include="FriendProfile.cs" />
     <Compile Include="Friends.cs" />
+    <Compile Include="Invite.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Register.cs" />
     <Compile Include="EditProfile.cs" />
@@ -153,6 +155,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SelectLocation.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Invite.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

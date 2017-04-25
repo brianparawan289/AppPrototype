@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>4/23/2017 10:03:45 PM</xs:documentation>
+    <xs:documentation>4/24/2017 10:10:25 AM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -18408,6 +18408,7 @@
             <xs:enumeration value="@id/btnCreateEvent" />
             <xs:enumeration value="@id/btnEditProfile" />
             <xs:enumeration value="@id/btnEditSaveChanges" />
+            <xs:enumeration value="@id/btnEventInvite" />
             <xs:enumeration value="@id/btnFPEmail" />
             <xs:enumeration value="@id/btnFPRemove" />
             <xs:enumeration value="@id/btnFriends" />
@@ -18417,6 +18418,7 @@
             <xs:enumeration value="@id/btnRegister" />
             <xs:enumeration value="@id/btnSaveLocation" />
             <xs:enumeration value="@id/btnSelectLocation" />
+            <xs:enumeration value="@id/btnSendInvites" />
             <xs:enumeration value="@id/btnSMS" />
             <xs:enumeration value="@id/etAddress1" />
             <xs:enumeration value="@id/etAddress2" />
@@ -18436,6 +18438,7 @@
             <xs:enumeration value="@id/etState" />
             <xs:enumeration value="@id/linearCreateEvent" />
             <xs:enumeration value="@id/listViewFriends" />
+            <xs:enumeration value="@id/listViewInviteFriends" />
             <xs:enumeration value="@id/slMap" />
             <xs:enumeration value="@id/svCreateEvent" />
             <xs:enumeration value="@id/tvCEAddress" />
@@ -18458,6 +18461,7 @@
             <xs:enumeration value="@id/tvFPName" />
             <xs:enumeration value="@id/tvFPPhone" />
             <xs:enumeration value="@id/tvFriendsTest" />
+            <xs:enumeration value="@id/tvInviteTest" />
             <xs:enumeration value="@id/tvLastName" />
             <xs:enumeration value="@id/tvPassword" />
             <xs:enumeration value="@id/tvTest" />

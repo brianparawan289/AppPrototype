@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Android.App;
@@ -89,8 +90,14 @@ namespace Login
             try
             {
                 string response = await MakePostRequest(url, payload, true);
+
+
+                if (response != null)
+                {
+                    Toast.MakeText(this, "Event Created", ToastLength.Short).Show();
+                }
                 Finish();
-                //toast here?
+                
             }
             catch (Exception exception)
             {
