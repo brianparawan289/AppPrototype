@@ -1,66 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:text="Email: "
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvEmail" />
-    <EditText
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+  <TextView
+    android:layout_marginTop="40dp"
+    android:text="Create Account"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#4a98ed"
+    android:id="@+id/txtCreateAccount"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="25sp" />
+  
+  <LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:layout_gravity="center">
+
+    <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+        android:textColorHint="#000000">
+      <EditText
         android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
         android:id="@+id/etEmail" />
-  <TextView
-    android:text="First Name: "
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/tvFirstName" />
-  <EditText
-    android:text=""
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/etFirstName" />
-  <TextView
-    android:text="Last Name: "
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/tvLastName" />
-  <EditText
-    android:text=""
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/etLastName" />
-    <TextView
-        android:text="Password: "
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvPassword" />
-    <EditText
+    android:textColorHint="#000000">
+      <EditText
         android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="First Name"
+        android:id="@+id/etFirstName" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="#000000">
+      <EditText
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Last Name"
+        android:id="@+id/etLastName" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="#000000">
+      <EditText
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Password"
         android:id="@+id/etPassword" />
-    <TextView
-        android:text="Confirm Password: "
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvConfirmPassword" />
-    <EditText
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="#000000">
+      <EditText
         android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Confirm Password"
         android:id="@+id/etConfirmPassword" />
+    </android.support.design.widget.TextInputLayout>
+
     <Button
-        android:text="Register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnRegister" />
-    <TextView
-        android:text=""
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvTest" />
-</LinearLayout>
+      android:layout_marginTop="20dp"
+      android:text="Register"
+      android:background="@drawable/orange_button"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:id="@+id/btnRegister" />
+    
+  <TextView
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvTest" />
+    
+  </LinearLayout>
+</FrameLayout>
