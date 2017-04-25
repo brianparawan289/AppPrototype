@@ -1,42 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:text="Email: "
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+  <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/Logo"
+    android:layout_gravity="center_horizontal"/>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp">
+
+    <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+        android:textColorHint="#000000">
+      <EditText
+        android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvEmail" />
-    <EditText
-        android:text="admin@example.com"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
         android:id="@+id/etEmail" />
-    <TextView
-        android:text="Password: "
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvPassword" />
-    <EditText
-        android:text="Password@123"
+        android:textColorHint="#000000">
+      <EditText
+        android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:inputType="textPassword"
+        android:hint="Password"
         android:id="@+id/etPassword" />
+    </android.support.design.widget.TextInputLayout>
+
     <Button
+        android:layout_marginTop="20dp"
         android:text="Login"
+        android:background="@drawable/blue_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:id="@+id/btnLogin" />
-    <Button
-        android:text="Register"
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Not a member? Sign up now."
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/txtRegister" />
+    
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Register"
+        android:background="@drawable/orange_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:id="@+id/btnRegister" />
+
     <TextView
         android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tvTest" />
-</LinearLayout>
+
+  </LinearLayout>
+</FrameLayout>
